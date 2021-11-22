@@ -1,0 +1,101 @@
+.header{
+   background: url(../images/bg.png) no-repeat center center/cover;
+   position: relative;
+   height: 100%;
+   width: 100%;
+   z-index: 2;
+   
+   ::before{
+      content:"";
+      position: absolute;
+      height:100%;
+      width: 100%;
+      top: 0px;
+      left: 0px;
+      background-color: #28282d;
+      opacity: 5%;
+      z-index: -1;
+   }
+
+   .top-banner{
+
+      .top-nav{
+
+         ul{
+
+            a{
+               text-transform: uppercase;
+               color: #fff;
+               font-family: oswald, sans-serif;
+               margin: 10px;
+               padding: 15px;
+               border: 1px solid transparent;
+
+   
+               &:hover{
+                  color: #e58f00;
+                  transition: 0.3s;
+                  border: 1px solid #fff;
+                  border-radius: 10px;
+               }
+
+               @media (max-width: 768px)  {
+                  padding: 5px;
+                  border: none;
+
+                  &:hover{
+                     color: #e58f00;
+                     transition: 0.3s;
+                     border: none;
+                  }
+               }
+            }
+         }
+      }
+
+      .banner{
+         .banner-image{
+            padding: 20px;
+         }
+
+         .text{
+            padding: 20px;
+
+            h2{
+               color: #e58f00;
+               font-size: 36px;
+               letter-spacing: 10px;
+               font-weight: 700px;
+            }
+
+            p{
+               color: #fff;
+               font-size: 16px;
+            }
+
+            .btn{
+               background: #e58f00;
+               padding: 10px;
+               border-radius: 5px;
+               border: 1px solid transparent;
+
+               
+               a{
+                  font-family: oswald, serif;
+                  font-weight: 700;
+                  color: #000000;          
+               }
+
+               &:hover{
+                  transition: 0.3s;
+                  border: 1px solid rgb(255, 255, 255);
+                  a{
+                     color: #fff;   
+                     transition: 0.3s;       
+                  }
+               }
+            }
+         }
+      }
+   }
+}

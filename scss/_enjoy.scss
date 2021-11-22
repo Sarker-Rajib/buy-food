@@ -1,0 +1,23 @@
+.enjoy{
+   background: url(../images/5bg.png) no-repeat center center/cover;
+
+   .card{
+      width: 50%;
+      background: #1d1d23;
+      border: 3px solid #e58f00;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      padding: 50px;
+
+      h3{
+         color: #fff;
+         padding: 20px;
+      }
+
+      @media (max-width: 768px) {
+        width: 80%;
+        border: 2px solid #e58f00;
+
+      }
+   }
+}

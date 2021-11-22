@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
+
+@font-face {
+   font-family: 'Aachen_BT_Bold';
+   src: url(../fonts/Aachen_BT_Bold.ttf);
+}
+
+
+*{
+   box-sizing: border-box;
+   margin: none;
+   padding: none;
+}
+
+body{
+   background: #1d1d23;
+}
+
+a{
+   text-decoration: none;
+}
+
+p{
+   color: #fff;
+}
+
+ul{
+   text-decoration: none;
+   list-style-type: none;
+}

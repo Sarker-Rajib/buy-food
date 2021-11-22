@@ -1,0 +1,30 @@
+.menu{
+   h3{
+      color: #fff;
+      font-size: 36px;
+      padding: 20px;
+   }
+
+   .items{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 20px;
+
+      @media (max-width:768px) {
+         grid-template-columns: 1fr 1fr;
+      }
+      @media (max-width: 530px) {
+         grid-template-columns: 1fr;
+      }
+
+      .text{
+         padding: 10px;
+
+         h3{
+            padding-left: 0px;
+            font-size: 25px;
+            color: #e58f00;
+         }
+      }
+   }
+}

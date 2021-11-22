@@ -1,0 +1,20 @@
+.food-gallery{
+   h3{
+      font-size: 50px;
+      color: #fff;
+      padding: 40px;
+   }
+
+   .container{
+      .gallery-items{
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+         grid-gap: 30px;
+
+         @media (max-width: 768px)  {
+            grid-template-columns: 1fr 1fr;
+         }
+      }
+   }
+
+}
